@@ -9,19 +9,16 @@ $(document).ready(function(){
             var element = '.progressbar-voice';
             switch(event.data.number){
                 case 1: 
-                    setProgress(element,25);
+                    setProgress(element,33);
                     break;
                 case 2: 
-                    setProgress(element,50);
+                    setProgress(element,67);
                     break;
                 case 3: 
-                    setProgress(element,75);
-                    break;
-                case 4: 
                     setProgress(element,100);
                     break;
                 default : 
-                    setProgress(element,50);
+                    setProgress(element,67);
             }
         } else if (event.data.toggleUI) {
             if(event.data.value) {
